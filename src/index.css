@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+input {
+  outline: none;
+}
+
+body, #root{
+  height: 100%;
+}
+ul,li {
+  list-style-type: none;
+}
+
+@theme{ 
+  --color-background: rgb(50, 50, 50);
+  --color-button: rgb(80, 80, 80); 
+  --color-button-hover: rgb(255, 255, 255);
+  --color-theme-text: rgb(213, 213, 213);
+  --color-theme-text-hover: rgb(255, 255, 255);
+  --color-theme-blue: rgb(23, 46, 82);
+  --color-opposite: rgb(80, 80, 80);
+  --border: rgb();
+}
+
+.light { 
+  --color-background: rgb(235, 235, 235);
+  --color-theme-blue: rgb(74, 134, 229);
+  --color-button: rgb(48, 48, 48); 
+  --color-button-hover: rgb(80,80,80);
+  --color-theme-text: rgb(10, 10, 10);
+  --color-theme-text-hover: rgb(45, 45, 255);
+  --color-opposite: rgb(235, 235, 235);
+  --border: black;
+}
+
+/* #search:focus {
+  box-shadow: 0 0 3px 1px white;
+} */
+
+label:has([name="cardInput"]:checked) {
+  text-decoration: line-through;
+  background-color: var(--color-opposite);
+} 
+
+
+
+::-webkit-scrollbar{
+  height: 10px;
+}
+::-webkit-scrollbar-track{
+  background-color: rgb(10, 10, 10 , 0.5);
+}
+::-webkit-scrollbar-thumb{
+  border-radius: 10px;
+  background: rgb(255, 255, 255, 0.6);
+}
