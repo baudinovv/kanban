@@ -7,46 +7,7 @@
 ![Supabase](https://img.shields.io/badge/Supabase-181818?style=for-the-badge&logo=supabase&logoColor=white)
 
 > Movies app.
-### Technologies
-* Tailwind CSS
-* Vite
-* HTML5
-* TypeScript
-* Vue 3, global state manager: pinia
-* Data provided by [TMDB API](https://www.themoviedb.org/)
-
-## Support
-* (Only for now) Desktop version 
-
-## Build Setup
-
-Make sure that [pnpm](https://pnpm.io/) package is installed.
-
-``` bash
-# install dependencies
-pnpm i
-
-# serve with hot reload at localhost:8080
-pnpm dev
-
-# build for production with minification
-pnpm build
-```
-
-Dev dependecies:
-``` bash
-devDependencies:
-@iconify/tailwind 1.1.3
-@vitejs/plugin-vue 5.1.3
-autoprefixer 10.4.20
-postcss 8.4.45
-tailwindcss 3.4.10
-typescript 5.5.4
-vite 5.4.3
-vue-tsc 2.1.6
-```
-
-Or follow Vite's recommendations.
+Simple kanban project with dnd-kit's drag'n'drop and supabase for auth and data storage.
 
 # Contact
 
