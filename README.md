@@ -7,7 +7,7 @@
 ![Supabase](https://img.shields.io/badge/Supabase-181818?style=for-the-badge&logo=supabase&logoColor=white)
 
 > Movies app.
-Simple kanban project with dnd-kit's drag'n'drop and supabase for auth and data storage.
+Simple kanban project with dnd-kit's drag'n'drop and supabase for auth and data storage and FSD architecture. 
 
 # Contact
 
